@@ -4,12 +4,18 @@
     javac Client.java
     
 2.After compilation process, run below command in conrresponding terminals to start the each once
-    Start the server (command): java Server <port>, e.g., java Server 5000
-    Start the client (command): java Client <serverIP> <port>, e.g., java Client 192.168.10.2 5000
 
-    How to find the <serverIP>
-        "ipconfig" - type in terminal and get the IPv4 Address as serverIP
+Start the server (command): java Server <port> 
 
-3.Type messages in the client CLI and press Enter to send them to the server.
+        java Server 5000
+        
+Start the client (command): java Client <serverIP> <port> 
 
-4.To terminate the client, type "terminate" and press Enter.
+        java Client 192.168.10.2 5000
+
+3.How to find the <serverIP>
+"ipconfig" - type in terminal and get the IPv4 Address as serverIP
+
+4.Type messages in the client CLI and press Enter to send them to the server.
+
+5.To terminate the client, type "terminate" and press Enter.
