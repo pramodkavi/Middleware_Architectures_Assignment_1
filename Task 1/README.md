@@ -5,11 +5,11 @@
     
 2.After compilation process, run below command in conrresponding terminals to start the each once
 
-Start the server (command): java Server <port> 
+Start the server (command): java Server (port) 
 
         java Server 5000
         
-Start the client (command): java Client <serverIP> <port> 
+Start the client (command): java Client (serverIP) (port) 
 
         java Client 192.168.10.2 5000
 
