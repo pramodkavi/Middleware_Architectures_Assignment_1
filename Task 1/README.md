@@ -14,6 +14,7 @@ Start the client (command): java Client <serverIP> <port>
         java Client 192.168.10.2 5000
 
 3.How to find the <serverIP>
+
 "ipconfig" - type in terminal and get the IPv4 Address as serverIP
 
 4.Type messages in the client CLI and press Enter to send them to the server.
