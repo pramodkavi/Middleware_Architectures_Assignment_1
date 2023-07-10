@@ -1,4 +1,5 @@
 1.Open 2 cmds in each folder and run below command individually.
+
     javac Server.java
     javac Client.java
     
