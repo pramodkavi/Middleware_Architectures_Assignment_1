@@ -87,6 +87,8 @@ class ClientHandler implements Runnable {
                         break;
                     }
                     Server.broadcastMessage(message, topic, this);
+                    System.out.println("Client : " + topic + " - " + message);
+
                 }
             } else if (clientType.equalsIgnoreCase("SUBSCRIBER")) {
                 while (true) {
